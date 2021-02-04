@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BaasuMart</string>
+    <string name="title_1">Welcome to BaasuMart</string>
+    <string name="desc_1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy</string>
+
+    <string name="title_2">Satisfied Customer</string>
+    <string name="desc_2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy</string>
+
+    <string name="title_3">Affordable Price</string>
+    <string name="desc_3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
