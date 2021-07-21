@@ -16,22 +16,24 @@
         <activity android:name=".BottomNav.Activity.FavouriteActivity"></activity>
         <activity android:name=".BottomNav.Activity.PurchaseProductActivity" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCUeEkblVItkHBftqPZxzHT5wgZskLG7z0" />
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyCUeEkblVItkHBftqPZxzHT5wgZskLG7z0" />
 
-        <activity android:name=".BottomNav.Activity.LocationActivity" />
+        <activity android:name=".BottomNav.Activity.LocationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".BottomNav.Activity.ProductActivity" />
         <activity android:name=".BottomNav.Activity.CategoryActivity" />
         <activity android:name=".BottomNav.Activity.ProfileActivity" />
         <activity android:name=".BottomNav.Activity.CartActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".OnBoardingScreen.OnBoardingScreen" />
         <activity android:name=".MainActivity" />
